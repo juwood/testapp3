@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_resource">
+    <sys_hub_resource action="INSERT_OR_UPDATE">
+        <conditions table="sys_hub_flow_base">sys_scope=0c6ed5ee1b92b8106948c883604bcbb1^EQ<item display_table="sys_scope" display_value="Common Approval Engine" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="0c6ed5ee1b92b8106948c883604bcbb1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <name>Common resource</name>
+        <resource_tags/>
+        <sys_class_name>sys_hub_resource</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 21:53:24</sys_created_on>
+        <sys_id>48e7ecc51bf2b0906948c883604bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Common resource</sys_name>
+        <sys_package display_value="My New App 3" source="x_snc_my_new_app_3">005ebbfc1b7efc50817beb17b04bcb46</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_update_name>sys_hub_resource_48e7ecc51bf2b0906948c883604bcb11</sys_update_name>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 21:53:24</sys_updated_on>
+        <table>sys_hub_flow_base</table>
+    </sys_hub_resource>
+</record_update>

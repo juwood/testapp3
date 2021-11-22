@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch7-hotfix2-09-15-2021_09-16-2021_0748.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sn_test_admin</internal_name>
+        <label_cache>[{"name":"91ab5686-5386-4779-9d0f-afe7985643fb.context","label":"1➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>c0a750c51bb2b0906948c883604bcbbc</master_snapshot>
+        <name>my app 3 as admin</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>d8a750c51bb2b0906948c883604bcbe7</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:37:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1b69c451bb2b0906948c883604bcbb8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>my app 3 as admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My New App 3" source="x_snc_my_new_app_3">005ebbfc1b7efc50817beb17b04bcb46</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_update_name>sys_hub_flow_b1b69c451bb2b0906948c883604bcbb8</sys_update_name>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1b69c451bb2b0906948c883604bcbb8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b1b69c451bb2b0906948c883604bcbb8"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-09-30 12:00:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8a750c51bb2b0906948c883604bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <time/>
+        <timer_type>0</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:d8a750c51bb2b0906948c883604bcbe7^sys_idNOT IN50a750c51bb2b0906948c883604bcbe8"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:d8a750c51bb2b0906948c883604bcbe7</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">cristina.deguzman@snc</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-09-30 12:00:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('d8a750c51bb2b0906948c883604bcbe7');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>50a750c51bb2b0906948c883604bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">d8a750c51bb2b0906948c883604bcbe7</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b1b69c451bb2b0906948c883604bcbb8^sys_idNOT IN01675c851bb2b0906948c883604bcb19"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="my app 3 as admin">b1b69c451bb2b0906948c883604bcbb8</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:40:42</sys_created_on>
+        <sys_id>01675c851bb2b0906948c883604bcb19</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:45</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=01675c851bb2b0906948c883604bcb19"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>01675c851bb2b0906948c883604bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:43</sys_created_on>
+        <sys_id>84a750c51bb2b0906948c883604bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:43</sys_updated_on>
+        <value>2021-09-30 06:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b1b69c451bb2b0906948c883604bcbb8^sys_idNOT IN31b69c451bb2b0906948c883604bcbbc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b1b69c451bb2b0906948c883604bcbb8</id>
+        <name>sn test admin</name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:37:44</sys_created_on>
+        <sys_id>31b69c451bb2b0906948c883604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:37:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b1b69c451bb2b0906948c883604bcbb8^sys_idNOT IN09675c851bb2b0906948c883604bcb1a"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="my app 3 as admin">b1b69c451bb2b0906948c883604bcbb8</flow>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Public Flow">4ef59e081beefc106948c883604bcb0c</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:40:42</sys_created_on>
+        <sys_id>09675c851bb2b0906948c883604bcb1a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:45</sys_updated_on>
+        <ui_id>91ab5686-5386-4779-9d0f-afe7985643fb</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=09675c851bb2b0906948c883604bcb1a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>09675c851bb2b0906948c883604bcb1a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:40:43</sys_created_on>
+        <sys_id>d1675c851bb2b0906948c883604bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:40:43</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">cd675c851bb2b0906948c883604bcb1b</variable>
+    </sys_variable_value>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=09675c851bb2b0906948c883604bcb1a^sys_idNOT INcd675c851bb2b0906948c883604bcb1b"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">09675c851bb2b0906948c883604bcb1a</model>
+        <model_id>09675c851bb2b0906948c883604bcb1a</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_09675c851bb2b0906948c883604bcb1a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:40:42</sys_created_on>
+        <sys_id>cd675c851bb2b0906948c883604bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:40:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b1b69c451bb2b0906948c883604bcbb8^sys_idNOT IN1ca790c51bb2b0906948c883604bcb03"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1ca790c51bb2b0906948c883604bcb03","name":"plan"}}</plan>
+        <plan_id>b1b69c451bb2b0906948c883604bcbb8</plan_id>
+        <snapshot>d8fceb9b1b3e74106948c883604bcb1a</snapshot>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ca790c51bb2b0906948c883604bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <trigger display_value="">d8a750c51bb2b0906948c883604bcbe7</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>my_app_3_as_admin</internal_name>
+        <label_cache>[{"name":"91ab5686-5386-4779-9d0f-afe7985643fb.context","label":"1➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>my app 3 as admin</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="my app 3 as admin">b1b69c451bb2b0906948c883604bcbb8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0a750c51bb2b0906948c883604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0a750c51bb2b0906948c883604bcbbc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c0a750c51bb2b0906948c883604bcbbc"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c0a750c51bb2b0906948c883604bcbbc^sys_idNOT INc0a750c51bb2b0906948c883604bcbbf"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="my app 3 as admin">c0a750c51bb2b0906948c883604bcbbc</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>c0a750c51bb2b0906948c883604bcbbf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c0a750c51bb2b0906948c883604bcbbf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c0a750c51bb2b0906948c883604bcbbf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>48a750c51bb2b0906948c883604bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <value>2021-09-30 06:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c0a750c51bb2b0906948c883604bcbbc^sys_idNOT IN88a750c51bb2b0906948c883604bcbbc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c0a750c51bb2b0906948c883604bcbbc</id>
+        <name>my app 3 as admin</name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>88a750c51bb2b0906948c883604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c0a750c51bb2b0906948c883604bcbbc^sys_idNOT IN1ca750c51bb2b0906948c883604bcbbf"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="my app 3 as admin">c0a750c51bb2b0906948c883604bcbbc</flow>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Public Flow">4ef59e081beefc106948c883604bcb0c</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>1ca750c51bb2b0906948c883604bcbbf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <ui_id>91ab5686-5386-4779-9d0f-afe7985643fb</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1ca750c51bb2b0906948c883604bcbbf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>1ca750c51bb2b0906948c883604bcbbf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>9ca750c51bb2b0906948c883604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">d4a750c51bb2b0906948c883604bcbc0</variable>
+    </sys_variable_value>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=1ca750c51bb2b0906948c883604bcbbf^sys_idNOT INd4a750c51bb2b0906948c883604bcbc0"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">1ca750c51bb2b0906948c883604bcbbf</model>
+        <model_id>1ca750c51bb2b0906948c883604bcbbf</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_1ca750c51bb2b0906948c883604bcbbf</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>cristina.deguzman@snc</sys_created_by>
+        <sys_created_on>2021-09-22 20:41:44</sys_created_on>
+        <sys_id>d4a750c51bb2b0906948c883604bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="My New App 3">005ebbfc1b7efc50817beb17b04bcb46</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>cristina.deguzman@snc</sys_updated_by>
+        <sys_updated_on>2021-09-22 20:41:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_flow action="update">
+        <sys_id>b1b69c451bb2b0906948c883604bcbb8</sys_id>
+        <latest_snapshot>c0a750c51bb2b0906948c883604bcbbc</latest_snapshot>
+    </sys_hub_flow>
+</record_update>
